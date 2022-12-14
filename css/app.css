@@ -108,6 +108,9 @@ img{
     border: 2px dashed black;
 }
 
+footer{
+    background-color: black;
+}
 .footer-content{
     flex-basis: 20%;
     flex-direction: column;
@@ -116,5 +119,12 @@ img{
     background-color: aqua;
 }
 
+.row-footer{
+    background-color: aqua;
+    min-height: 20px;
+    flex-basis: 100%;
+    border: 2px dashed black;
+    justify-content: space-between;
+}
 
 
