@@ -94,6 +94,19 @@ img{
     min-height: 300px;
     border: 2px dashed black;
     background-color: green;
+}
+
+.footer{
     padding: 20px;
+}
+.row-cols5 >.col{
+    border: 2px dashed black;
+    min-height: 250px;
+    flex-basis: 20%;
+    background-color: aqua;
+}
+
+.first-col{
+    flex-basis: 30%;
 }
 
