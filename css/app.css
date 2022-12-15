@@ -13,19 +13,13 @@ img{
     margin: 0 auto;
 }
 
-.debug{
+.debug-header{
     background-color: cornflowerblue;
-    min-height: 50px;
 }
 
 .debug .container{
     padding: 20px;
-}
-
-.debug .row{
-    background-color: yellow;
-    min-height: 30px;
-    border: 2px dashed black;
+    border: 4px solid red;
 }
 
 .row{
@@ -38,11 +32,11 @@ img{
 }
 
 .col-header{
-    flex-basis: 25%;
+    border: 2px dashed black;
 }
 
-.col-header2{
-    flex-basis: 50%;
+.logo-wrapper{
+    min-height: 80px;
 }
 
 .debug2{
@@ -53,16 +47,14 @@ img{
 
 .second{
     max-width: 600px;
-    border: 2px dashed black;
+    border: 2px dashed rgb(30, 21, 21);
     background-color: blueviolet;
     min-height: 200px; 
 }
 
-.row-header{
+.row-main{
     align-self: center;
 }
-
-/* Style main */
 
 .main-container{
     padding: 20px;
@@ -110,21 +102,22 @@ img{
 
 footer{
     background-color: black;
+    padding: 20px;
 }
 .footer-content{
     flex-basis: 20%;
-    flex-direction: column;
     min-height: 250px;
     border: 2px dashed black;
     background-color: aqua;
 }
 
 .row-footer{
-    background-color: aqua;
-    min-height: 20px;
-    flex-basis: 100%;
-    border: 2px dashed black;
     justify-content: space-between;
+}
+
+.col-footer{
+    border: 2px dashed black;
+    background-color: aqua;
 }
 
 
